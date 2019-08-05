@@ -1,8 +1,13 @@
 {
-  "name": "canfbot",
-  "version": "1.0.0",
-  "description": "Bot by CanWeabou#6284",
+  "name": "CanfBot",
+  "description": "CanfBot",
+  "version": "0.0.0",
   "main": "bot.js",
-  "author": "CanWeabou#6284",
-  "dependencies": {}
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
 }
