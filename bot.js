@@ -5,6 +5,11 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
+    bot.on(`ready`, () => {
+        bot.helpers.log(`startup`, `main bot: ${bot.user.username} is online`);
+        bot.user.setActivity(`for ${config.prefix}help`, {type: "WATCHING"});
+    });
+
 client.on('message', message => {
     if (message.content === 'c!ping') {
     	message.reply('Pinged you boi');
