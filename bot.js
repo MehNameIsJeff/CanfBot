@@ -29,7 +29,7 @@ client.on('message', message => {
   	}
 });
 
-    if (message.content === 'c!help') {
+    if ('message'.content === 'c!help') {
 let user = message.author;
 user.send("Ewwwwwwwww")
 
