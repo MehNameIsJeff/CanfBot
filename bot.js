@@ -6,20 +6,20 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '~ping') {
+    if (message.content === 'c!ping') {
     	message.reply('Pinged you boi');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === '~info') {
+    if (message.content === 'c!info') {
     	message.reply('Made by CanWeabou#6284');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === '~help') {
-    	message.reply('My Prefix is ~, Commands : ~ping , ~info');
+    if (message.content === 'unkown!help') {
+    	message.reply('My Prefix is c!, Commands : ~ping , ~info');
   	}
 });
 
