@@ -23,22 +23,16 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'unkown!help') {
-    	message.channel.send('My Prefix is c!, Commands : ~ping , ~info');
+    if (message.content === 'canf prefix') {
+    	message.channel.send('My Prefix is ``~``');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === '') {
-    	message.channel.send('');
+    if (message.content === 'slots') {
+    	message.channel.send('7 7 7');
   	}
 });
 
-    if ('message'.content === 'c!help') {
-let user = message.author;
-user.send("Ewwwwwwwww")
-
-bot.user.setActivity(`for ${config.prefix}help`, {type: "WATCHING C!"});
- 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
