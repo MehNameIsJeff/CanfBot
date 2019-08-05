@@ -13,13 +13,13 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'c!info') {
-    	message.reply('Made by CanWeabou#6284');
+    	message.channel.send("Made by CanWeabou#6284");
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'unkown!help') {
-    	message.reply('My Prefix is c!, Commands : ~ping , ~info');
+    	message.channel.send('My Prefix is c!, Commands : ~ping , ~info');
   	}
 });
 
