@@ -7,7 +7,7 @@ client.on('ready', () => {
 
     bot.on(`ready`, () => {
         bot.helpers.log(`startup`, `main bot: ${bot.user.username} is online`);
-        bot.user.setActivity(`for ${config.prefix}help`, {type: "WATCHING"});
+        bot.user.setActivity(`for ${config.prefix}help`, {type: "WATCHING c!"});
     });
 
 client.on('message', message => {
@@ -23,7 +23,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'canf prefix') {
+    if (message.content === 'canfprefix') {
     	message.channel.send('My Prefix is ``~``');
   	}
 });
