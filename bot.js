@@ -33,5 +33,7 @@ client.on('message', message => {
 let user = message.author;
 user.send("Ewwwwwwwww")
 
+bot.user.setActivity(`for ${config.prefix}help`, {type: "WATCHING C!"});
+ 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
