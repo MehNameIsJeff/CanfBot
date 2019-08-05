@@ -23,5 +23,15 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === '') {
+    	message.channel.send('');
+  	}
+});
+
+    if (message.content === 'c!help') {
+let user = message.author;
+user.send("Ewwwwwwwww")
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
