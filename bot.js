@@ -29,8 +29,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'slots') {
-    	message.channel.send('7 7 7');
+    if (message.content === 'c!test') {
+    	message.channel.send('Hai');
   	}
 });
 
