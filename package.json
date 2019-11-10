@@ -1,7 +1,7 @@
 {
-  "name": "CanfBot",
-  "description": "CanfBot",
-  "version": "0.0.0",
+  "name": "canfbot",
+  "description": "",
+  "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
